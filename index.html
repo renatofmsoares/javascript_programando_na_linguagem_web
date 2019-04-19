@@ -71,10 +71,15 @@
 						</tr>
 					</tbody>
 				</table>
-				<span id="erro-ajax" class="invisivel">Erro ao buscar os pacientes</span>
-
-				<button id="buscar-pacientes" class="botao bto-principal">Buscar Pacientes</button>
-
+				
+				<div style="float:left">
+					<span id="erro-ajax" class="invisivel">Erro ao buscar os pacientes</span>
+					<button id="buscar-pacientes" class="botao bto-principal">Buscar Pacientes</button>
+				</div>
+				<div style="float:right">
+					<span id="msg_nomes_repetidos" class="invisivel"></span>
+					<button id="verifica_nomes_repetidos" class="botao bto-principal">Verifica nomes repetidos</button>
+				</div>
 			</section>
 		</main>
 
@@ -108,6 +113,7 @@
 		<script src="js/remover-paciente.js" ></script>
 		<script src="js/filtra.js" ></script>
 		<script src="js/buscar-pacientes.js" ></script>
+		<script src="js/verifica_nomes_repetidos.js" ></script>
 
 	</body>
 </html>
